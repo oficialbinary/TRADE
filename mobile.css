@@ -1,0 +1,101 @@
+@media (max-width:650px){
+  *{
+    box-sizing: border-box;
+  }
+
+  body{
+    padding: 2px;
+  }
+  
+  .menu{
+    display: none;
+  }
+  
+  .nav{
+    justify-content: space-between;
+  }
+  
+  .mobile-navigation-bar{
+    background-color: rgb(12, 234, 241, 0.89);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 10px;
+    top:1px;
+    border-radius: 20px;
+    display: none;
+    padding: 10px;
+  }
+
+  #smenu{
+    border: 2px solid white;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 98%;
+    text-align: center;
+  }
+
+  #smenu:hover{
+    cursor: pointer;
+    background-color: #0808ff;
+  }
+
+  #smenu a,link{
+    color:white;
+    text-decoration: none;
+  }
+
+  
+  
+  .first-box{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-left: 5px;
+  }
+  
+  .experience{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .experience>div{
+    width: 450px;
+    padding: 3px;
+    margin: 10px;
+  }
+  
+  #wwd{
+    text-align: center;
+    line-height:25px;
+    color:white;
+    }
+  
+  .welcome{
+    width: 100%;
+  }
+
+  #menuBt{
+   display: block;
+  }
+  
+  .main-board{
+    display: grid;
+    grid-template-columns: 90%;
+  }
+
+  reg-box{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 50%;
+  }
+}

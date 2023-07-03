@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BINARY TRADE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0 user-scalable=no">
+
+    <link rel="stylesheet" href="trade.css">
+    <link rel="stylesheet" href="mobile.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  </head>
+
+  
+  <body>
+
+    <header>
+      <div class="nav">
+
+      <div class="nl">
+      <img class="logo" src="pix/logo.jpg">
+      <p class="name">BINARY</p>
+      </div>
+
+      <div class="menu">
+        <nav>
+          <ul>
+            <li id="subm1"><a href="index.html">&#9751;Home</a><li>
+            <li id="subm1"><a href="pay.html">&#128179;Dashboard</a><li>
+            <li id="subm"><a href="reg.html">&#10866;Sign Up</a><li>
+            <li id="subm"><a href="login.html">&#10143;Log In</a><li>
+          </ul>
+        </nav>
+
+      </div>
+
+      </div>
+      <button id="menuBt">&#9779;</button>
+    </header>
+
+    <div class="mobile-navigation-bar">
+      <div id="smenu"><a href="index.html">Home</a></div>
+      <div id="smenu"><a href="pay.html">Dashboard</a></div>
+      <div id="smenu"><a href="reg.html">Register</a></div>
+      <div id="smenu"><a href="login.html">Log In</a></div>
+      
+    </div>
+
+    <div class="main-board">
+      <div class="depo minib">
+        <p class="c-title">AMOUNT DEPOSITED</p>
+        R0
+      </div>
+
+      <div class="bon minib">
+        <p class="c-title">PROFIT</p>
+        R0
+      </div>
+
+      <div class="tots">
+        <p class="c-title">AVAILABLE AMOUNT</p>
+        R0
+      </div>
+    </div>
+
+    <div class="pay-box">
+      <div class="deposit-box">
+        <p>Enter Deposit Amount:</p>
+        <input type="text" id="dep-A" onchange="er()" class="inpValue">
+        <div id="message"></div>
+        <p>Copy the address bellow to proceed</p>
+        <input type="text" readonly value="crypto address" class="inpValue">
+  
+      </div>
+  
+  
+  
+      <div class="deposit-box">
+        <p>Enter withdrawal Amount: <br> The Company gives <br>you extra 10% <br>0n withdrawal</p>
+  
+        <input type="text" id="witVal" class="inpValue" onkeyup="sameval()">
+  
+        <div id="dWitval"></div>
+  
+        <input type="text" readonly class="inpValue withdraw" id="add-up">
+  
+        <input class="inpValue" id="add-tots" readonly>
+        <button id="wbtn" onclick="withdrawx()"> Withdraw</button>
+  
+      </div>
+  
+    </div>
+
+    
+
+    <script src="trade.js"></script>
+  </body>
+</html>

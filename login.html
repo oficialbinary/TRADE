@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BINARY TRADE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0 user-scalable=no">
+
+    <link rel="stylesheet" href="trade.css">
+    <link rel="stylesheet" href="mobile.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  </head>
+
+  
+  <body>
+
+    <header>
+      <div class="nav">
+
+      <div class="nl">
+      <img class="logo" src="pix/logo.jpg">
+      <p class="name">BINARY</p>
+      </div>
+
+      <div class="menu">
+        <nav>
+          <ul>
+            <li id="subm1"><a href="index.html">&#9751;Home</a><li>
+            <li id="subm1"><a href="pay.html">&#128179;Dashboard</a><li>
+            <li id="subm"><a href="reg.html">&#10866;Sign Up</a><li>
+            <li id="subm"><a href="login.html">&#10143;Log In</a><li>
+          </ul>
+        </nav>
+
+      </div>
+
+      </div>
+      <button id="menuBt">&#9779;</button>
+    </header>
+
+    <div class="mobile-navigation-bar">
+      <div id="smenu"><a href="index.html">Home</a></div>
+      <div id="smenu"><a href="pay.html">Dashboard</a></div>
+      <div id="smenu"><a href="reg.html">Register</a></div>
+      <div id="smenu"><a href="login.html">Log In</a></div>
+      
+    </div>
+  
+    <div class="log-box">
+      <form name="frm" action="" method="post" class="lgform" onsubmit="return(logStatus())">
+        <p>EMAIL: <input class="inpValue" name="em"></p>
+        <p>PHONE NUMBER: <input class="inpValue" name="ph"></p>
+
+        <input type="button" value="Login" class="log-btn" onclick="validxx()">
+      </form>
+    </div>
+    
+    <script src="trade.js"></script>
+  </body>
+</html>
