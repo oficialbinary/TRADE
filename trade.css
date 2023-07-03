@@ -620,3 +620,7 @@ width:170px;
 .log-btn{
   margin-left: 20%;
 }
+
+#no-go{
+  pointer-events: none;
+}
