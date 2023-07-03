@@ -29,7 +29,7 @@
     padding: 10px;
   }
 
-  #smenu{
+  .smenu{
     border: 2px solid white;
     margin-bottom: 10px;
     padding: 5px;
@@ -40,12 +40,12 @@
     text-align: center;
   }
 
-  #smenu:hover{
+  .smenu:hover{
     cursor: pointer;
     background-color: #0808ff;
   }
 
-  #smenu a,link{
+  .smenu a,link{
     color:white;
     text-decoration: none;
   }
