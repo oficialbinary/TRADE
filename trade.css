@@ -628,6 +628,10 @@ width:170px;
   font-size: 18px;
   font-weight: bold;
   background-color: white;
+  padding: 5px;
+  border: 2px solid red;
+  boder-radius: 15px;
+  text-align: center;
 }
 
 .no-go{
