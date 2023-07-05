@@ -325,6 +325,7 @@ color:black;
   border-radius:10px;
   border:2px solid white;
   text-decoration: none;
+  pointer-events: none;
 }
 
 
@@ -332,6 +333,7 @@ color:black;
   color:goldenrod;
   background-color:white;
   border-color:goldenrod;
+  pointer-events: none;
   cursor:pointer;
 }
 
@@ -619,6 +621,12 @@ width:170px;
 
 .log-btn{
   margin-left: 20%;
+}
+
+.accc{
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .no-go{
